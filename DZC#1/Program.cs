@@ -7,11 +7,14 @@ if (num1 > num2)
 {
     Console.WriteLine($"Максимальное число равно {num1}");
 }
-if (num1 < num2)
-{
-    Console.WriteLine($"Максимальное число равно {num2}");
-}
 else
 {
+    if (num1 < num2)
+    {
+    Console.WriteLine($"Максимальное число равно {num2}");
+    }
+    else
+    {
     Console.WriteLine("Вы ввели одинаковые числа");
+    }
 }
