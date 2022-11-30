@@ -7,6 +7,6 @@ while (num > 999) num = num / 10;
 Console.Write($"{(num%10)}");
 }
 else
-Console.WriteLine("Вы ввели двузначное число");
+Console.WriteLine("Третьей цифры нет");
 
 
